@@ -1,0 +1,44 @@
+:root{
+    --primary: #2d2d2d;
+    --mediumFont: 1.3em;
+}
+
+.navbar{
+    display: grid;
+    border-bottom: 1px solid var(--primary);
+    grid-template-columns: repeat(8, 1fr);
+    
+    padding: 0.5em 0;
+    margin: 0 0.6em;
+
+}
+
+.navbar__brand {
+    width: 2.9em;
+}
+
+.navbar__burger{
+    width: 40px;
+    grid-column: 8/9;
+    align-self: center;
+    justify-self: self-end;
+}
+
+.navbar__burger__inner {
+    height: 3px;
+    width: 100%;
+    margin: 6px 0;
+    background-color: var(--primary);
+    border-radius: 100px;
+}
+
+.navbar__list{
+    display: none;
+    flex-direction: column;
+}
+
+.navbar__list__item{
+    list-style: none;
+}
+
+
