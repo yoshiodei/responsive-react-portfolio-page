@@ -1,0 +1,43 @@
+.About{
+    padding: 1em;
+    background-color: #fefbe9;
+    color: #183a1d;
+}
+
+.About__heading__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.About__heading__line{
+    height: 0.35em;
+    width: 6em;
+    background-color: tomato;
+    margin: .25em 0 1.5em;
+}
+
+.About__img__div{
+    width: 230px;
+    height: 230px;
+    background-color: #e1eedd;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.About__img{
+    width:230px;
+    filter: drop-shadow(6px -3px 4px rgba(0,0,0,0.3));
+}
+
+.About__para{
+    text-align: center;
+    font-size: var(--smallFont);
+}
+
+.About__para::first-letter{
+    font-weight: bold;
+    font-size: 1.2em;
+}
