@@ -1,4 +1,4 @@
-import brand from './../Assets/yoshi_logo.png';
+import brand from './../Assets/jd_logo.png';
 import './../Assets/css/Navbar.css';
 
 const Navbar = () => {

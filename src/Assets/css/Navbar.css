@@ -1,5 +1,5 @@
 :root{
-    --primary: #2d2d2d;
+    --primary: #3d3d3d;
     --mediumFont: 1.3em;
 }
 
@@ -7,18 +7,17 @@
     display: grid;
     border-bottom: 1px solid var(--primary);
     grid-template-columns: repeat(8, 1fr);
-    
     padding: 0.5em 0;
     margin: 0 0.6em;
-
+    height: 8vh;
 }
 
 .navbar__brand {
-    width: 2.9em;
+    width: 2.4em;
 }
 
 .navbar__burger{
-    width: 40px;
+    width: 32px;
     grid-column: 8/9;
     align-self: center;
     justify-self: self-end;
