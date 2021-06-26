@@ -1,0 +1,24 @@
+:root {
+    --secondary: #fcde67;
+    --mediumFont: 1.3em;
+    --smallFont: 0.9em;
+    --primary: #3d3d3d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+
