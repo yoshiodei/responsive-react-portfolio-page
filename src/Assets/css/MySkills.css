@@ -1,0 +1,49 @@
+.Skills{
+    padding: 1em;
+    background-color: #e1eedd;
+    color: var(--primary);
+}
+
+.Skills__heading__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Skills__heading__line{
+    height: 0.35em;
+    width: 6em;
+    background-color: tomato;
+    margin: .25em 0 1.5em;
+}
+
+.Skills__div{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.Skills__image{
+    width: 9em;
+}
+
+.Skills__card__div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;;
+    grid-column: span 4;
+    margin-bottom: 20px;
+}
+
+.Skills__card__div:nth-child(4), .Skills__card__div:nth-child(6) {
+    padding-top: .8em;
+}
+
+.Skills__para{
+    justify-self: end;
+    margin: .5em;
+    text-decoration: none;
+    font-size: var(--mediumFont);
+    font-weight: 600;
+    color: var(--primary);
+}
