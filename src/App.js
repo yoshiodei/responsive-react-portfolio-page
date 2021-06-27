@@ -1,6 +1,7 @@
 import Navbar from './Components/Navbar';
 import IntroBody from './Components/IntroBody';
 import About from './Components/About';
+import MySkills from './Components/MySkills';
 
 import './App.css';
 
@@ -10,6 +11,7 @@ function App() {
       <Navbar />   
       <IntroBody /> 
       <About />
+      <MySkills />
     </div>
   );
 }
