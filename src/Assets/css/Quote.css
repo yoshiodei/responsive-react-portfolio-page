@@ -1,0 +1,43 @@
+.quote{
+    padding: 2em 1em;
+    background-color: #fefbe9;
+    color: #183a1d;
+    position: relative;
+}
+
+.quote__div {
+    display: flex;
+    width: 76vw;
+    height: 150px;
+}
+
+.quote__line {
+    height: 100%;
+    width: 15px;
+    border-radius: 50px;
+    background-color: #183a1d;
+}
+
+.quote__text__div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.quote__text{
+    line-height: 1.2;
+}
+
+.quote__author{
+    font-weight: bold;
+}
+
+.quote__img{
+    opacity: 0.4;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    width: 120px;
+}

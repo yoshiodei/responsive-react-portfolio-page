@@ -47,7 +47,7 @@ const Project = () => {
                 </div>
                 <div className="Project__div">
                     <img src={p8} className="Project__img" alt="project image" />
-                    <a className="Project__title" href="#">Trench - business website</a>
+                    <a className="Project__title" href="#">Huulu - business website</a>
                 </div>
             </div>    
         </section>
