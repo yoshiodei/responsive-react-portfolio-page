@@ -1,0 +1,12 @@
+.form{
+    padding: 1em;
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.form__heading__line{
+    height: 0.35em;
+    width: 6em;
+    background-color: tomato;
+    margin: .25em 0 1.5em;
+}
