@@ -8,10 +8,14 @@ const Form = () => {
                 <h3 className="form__heading">Get In Touch</h3>
                 <div className="form__heading__line"></div>
             </div>
-            <form>
-                <input type="text" placeholder="Name"/>
-                <input type="text" placeholder="Email"/>
-                <textarea>Your message--</textarea>
+            <form className="form__form">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Name"/>
+                <label for="email">Email</label>
+                <input id="email" type="text" placeholder="Email"/>
+                <label for="message">Message</label>
+                <textarea id="message">--Your message--</textarea>
+                <input type="submit" value="Send" />
             </form>
         </section>
     );

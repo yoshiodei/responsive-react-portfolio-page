@@ -1,4 +1,5 @@
 import Navbar from './Components/Navbar';
+import Contacts from './Components/Contacts';
 import Form  from './Components/Form';
 import Footer from './Components/Footer';
 import IntroBody from './Components/IntroBody';
@@ -19,6 +20,7 @@ function App() {
       <Project />
       <Quote />
       <Form />
+      <Contacts />
       <Footer />
     </div>
   );

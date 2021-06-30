@@ -5,8 +5,8 @@
 }
 
 .introBody__text{
-    margin: 25px 0;
-    padding-right: 8vw;
+    margin: 4vh 0;
+    padding-right: 9vw;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -21,13 +21,13 @@
 }
 
 .introBody__text__title{
-    margin: 0 0 4px;
+    margin: 0 0 .5vh;
     font-size: 1.1em;
     font-weight: 500;
 }
 
 .introBody__text__line{
-    height: 0.35em;
+    height: .6vh;
     width: 6em;
     background-color: tomato;
 }
@@ -35,18 +35,19 @@
 .introBody__img{
     position: absolute;
     bottom: 0;
-    left: 2em;
+    width: 86vw;
+    left: 7vw;
     z-index: 1;
     filter: drop-shadow(-8px 1px 8px rgba(0,0,0,0.3));
 }
 
 .introBody__circle{
     position: absolute;
-    width: 250px;
-    height: 250px;
+    width: 70vw;
+    height: 70vw;
     background-color: #f9ebb4;
     border-radius:50%;
-    bottom: 12em;
-    left: 4em;
+    bottom: 30vh;
+    left: 15vw;
     opacity: 0.8;
 }

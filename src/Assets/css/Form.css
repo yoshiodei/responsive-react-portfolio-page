@@ -1,6 +1,6 @@
 .form{
-    padding: 1em;
-    background-color: var(--secondary);
+    padding: 2em 1em;
+    background-color: #cfe0ca;
     color: var(--primary);
 }
 
@@ -10,3 +10,47 @@
     background-color: tomato;
     margin: .25em 0 1.5em;
 }
+
+.form__heading__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form__form *:not(input[type="submit"],label){
+    margin-bottom: 1em;
+    margin-top: .2em;
+}
+
+.form__form input{
+    height: 2.5em;
+    padding-left: 5px;
+    font-size: 1em;
+}
+
+.form__form label{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.form__form textarea{
+    padding: 8px;
+    font-size: 1.2em;
+    min-height: 5em;
+    max-width: 100%;
+}
+
+input[type="submit"]{
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    background-color: tomato;
+    color: white;
+}
+
+
