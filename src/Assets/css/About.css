@@ -41,3 +41,24 @@
     font-weight: bold;
     font-size: 1.2em;
 }
+
+@media screen and (min-width: 750px) {
+    .About{
+        padding: 2em 3em;
+    }
+
+    .About__img__div{
+        width: 320px;
+        height: 320px;
+        margin-bottom: 2em;
+    }
+
+    .About__img{
+        width:320px;
+    }
+
+    .About__para{
+        text-align: center;
+        font-size: var(--mediumFont);
+    }
+}
