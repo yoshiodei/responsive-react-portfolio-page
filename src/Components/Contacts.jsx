@@ -10,7 +10,7 @@ const Contacts = () => {
             </div>  
             <div className="contacts__div">
                 <div className="contacts__img__div">
-                    <img src={jdImg} alt="picture of john doe" />
+                    <img src={jdImg} alt="john doe" />
                 </div>
                 <ul className="contact__list">
                     <li className="contact__list__item">

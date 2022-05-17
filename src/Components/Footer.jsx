@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-            <p>- original work of kvzu -</p>
+            <h6>- original work of kvzu -</h6>
         </footer>
     );
 }

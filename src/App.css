@@ -2,6 +2,7 @@
     --secondary: #fcde67;
     --mediumFont: 1.3em;
     --smallFont: 0.9em;
+    --largeFont: 1.7em;
     --primary: #3d3d3d;
 }
 
@@ -9,6 +10,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
 }
 
 body{
@@ -30,4 +37,20 @@ footer{
     color: white;
     font-size: var(--smallFont);
 }
+
+section, footer{
+    overflow: hidden;
+}
+
+@media screen and (min-width: 750px){
+    body{
+        font-size: 20px;
+    }
+}    
+
+@media screen and (min-width: 1000px){
+    body{
+        font-size: 22px;
+    }
+} 
 

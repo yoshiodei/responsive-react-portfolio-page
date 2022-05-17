@@ -8,10 +8,13 @@ const About = () => {
                 <h3 className="About__heading">About Me</h3>
                 <div className="About__heading__line"></div>
             </div>
+            <div className="About__div">
+                <div className="About__inner__div">
+                    <div className="About__img__div">
+                    <img src={aboutImg} alt="john doe" className="About__img"/>
+                    </div>
+                </div>
             
-            <div className="About__img__div">
-                <img src={aboutImg} alt="john doe image" className="About__img"/>
-            </div>
             <div className="About__text__div">
                 
                 <p className="About__para">Like many others, I’m a Frontend developer aspiring to become a Full Stack Web dev.<br/><br/>
@@ -21,7 +24,8 @@ Hopefully you would find my works amazing or might not meet your expectations mu
 But whatever the case, I’ll be working hard to get better each day.
 <br/><br/>My best is yet to come! 
 </p>
-            </div>            
+            </div> 
+            </div>           
         </section>
     );
 }

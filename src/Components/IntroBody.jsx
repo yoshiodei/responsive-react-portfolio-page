@@ -12,7 +12,7 @@ const IntroBody = () => {
                 <p className="introBody__text__title">Frontend Web Developer</p>
                 <div className="introBody__text__line"></div>
             </div>
-            <img className="introBody__img" alt="picture of John Doe" src={introImg}/>
+            <img className="introBody__img" alt="John Doe" src={introImg}/>
             <div className="introBody__circle"> </div>       
         </section>
     );

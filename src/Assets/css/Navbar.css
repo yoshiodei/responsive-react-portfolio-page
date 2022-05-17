@@ -6,7 +6,7 @@
     grid-template-columns: repeat(8, 1fr);
     padding: 0.5em 0;
     margin: 0 0.6em;
-    height: 8vh;
+    height: 8vh; 
 }
 
 .navbar__brand {
@@ -37,4 +37,79 @@
     list-style: none;
 }
 
+@media screen and (min-width: 750px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    } 
 
+    .navbar__brand {
+        width: 2.5em;
+        height: 2.2em;
+        align-self: center;
+    }
+
+    .navbar__burger{
+        display: none;
+    }
+
+    .navbar__list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 1.1em;
+        align-items: center;
+        font-weight: 700;
+    }
+
+    .navbar__list a {
+        text-decoration: none; 
+        color: var(--primary);
+        margin-left: .5em;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .navbar{
+        padding: 1em 0;
+        margin: 0 1em;
+        height: 8vh; 
+    }
+
+    .navbar__brand {
+        width: 3em;
+        height: 2.5em;
+        align-self: center;
+    }
+
+    .navbar__list{
+        font-size: 1.3em;
+    }
+
+    .navbar__list a {
+        margin-left: 0.5em;
+    }
+}
+
+@media screen and (min-width: 1350px){
+    .navbar{
+        padding: 0;
+        margin: 0 2em;
+        height: 9vh; 
+    }
+
+    .navbar__brand {
+        width: 2em;
+        height: 1.5em;
+        align-self: center;
+    }
+
+    .navbar__list{
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+    .navbar__list a {
+        margin-left: 1.2em;
+    }
+}    

@@ -19,7 +19,7 @@ const Quote = () => {
                     </div>
                     
                 </div>
-                <img src={vint} className="quote__img" />
+                <img src={vint} className="quote__img" alt="vint cerf"/>
         </section>
     );
 }
